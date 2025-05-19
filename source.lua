@@ -250,6 +250,7 @@ TextLabel17.TextScaled = true
 TextLabel17.TextSize = 14
 TextLabel17.TextWrap = true
 TextLabel17.TextWrapped = true
+  ScreenGui0.Parent = CoreGui
   local tween = TweenService:Create(Frame7,notifyTweenInfo,notifyTargetPosition)
   tween:Play()
   local initfunctions = {}
