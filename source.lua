@@ -4,9 +4,11 @@ cool library
 
 ]]
 
-gui = {}
+library = {}
 
-function gui:test(x) -- to test
+library.DEBUG = true
+
+function library:test(x) -- to test
   print("test yay",x)
 end
 --[[ Settings:
@@ -25,10 +27,30 @@ Configuration = {
 
 
 ]]
-function gui:init(settings) -- initilaze the gui
+function library:init(settings) -- initilaze the gui
+  
   local initfunctions = {}
   
   return initfunctions
 end
+--[[ Parameters
 
-return gui
+{
+
+Title = "Warning",
+Icon = "11745872952", (image id)
+Description = "May get detected",
+Time = 4,
+}
+
+]]
+function library:Notify(settings)
+  if library.DEBUG == true then
+    print("[DEBUG] Notified! Settings: "..table.unpack(settings))
+  end
+  local NotifyFunctions = {}
+  
+  return NotifyFunctions
+end
+
+return library
