@@ -3,6 +3,7 @@
 cool library
 
 ]]
+local httpService = game:GetService("HttpService")
 
 library = {}
 
@@ -46,7 +47,7 @@ Time = 4,
 ]]
 function library:Notify(settings)
   if library.DEBUG == true then
-    print("[DEBUG] Notified! Settings: "..table.unpack(settings))
+    print("[DEBUG] Notified! Settings: "..httpService:JSONEncode(settings))
   end
   local NotifyFunctions = {}
   
