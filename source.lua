@@ -7,7 +7,7 @@ local TweenService = game:GetService("TweenService")
 local httpService = game:GetService("HttpService")
 local CoreGui = game.CoreGui
 local notifyTweenInfo = TweenInfo.new(1,Enum.EasingStyle.Quart,Enum.EasingDirection.Out)
-local notifyTargetPosition = UDim2.new(0.795, 0,0.683, 0)
+local notifyTargetPosition = {Position = UDim2.new(0.795, 0,0.683, 0)}
 
 library = {}
 
