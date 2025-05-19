@@ -47,7 +47,7 @@ Time = 4,
 ]]
 function library:Notify(settings)
   if library.DEBUG == true then
-    print("[DEBUG] Notified! Settings: "..httpService:JSONEncode(settings))
+    print("[DEBUG] Notified! Settings:",httpService:JSONEncode(settings))
   end
   local NotifyFunctions = {}
   
