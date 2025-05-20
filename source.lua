@@ -35,6 +35,7 @@ Configuration = {
 ]]
 function library:init(settings) -- initilaze the gui
   ScreenGui0 = Instance.new("ScreenGui")
+  ScreenGui0.ResetOnSpawn = false
 Frame1 = Instance.new("Frame")
 Frame2 = Instance.new("Frame")
 ImageLabel3 = Instance.new("ImageLabel")
@@ -55,7 +56,7 @@ TextLabel17 = Instance.new("TextLabel")
 ScreenGui0.Parent = mas
 ScreenGui0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame7.Parent = ScreenGui0
-Frame7.Position = UDim2.new(0.794507563, 0, 0.682505429, 0)
+Frame7.Position = UDim2.new(1.25, 0, 0.682505429, 0)
 Frame7.Size = UDim2.new(0.195075765, 0, 0.276457906, 0)
 Frame7.BackgroundColor = BrickColor.new("Institutional white")
 Frame7.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -278,7 +279,7 @@ TextLabel17 = Instance.new("TextLabel")
 ScreenGui0.Parent = mas
 ScreenGui0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame7.Parent = ScreenGui0
-Frame7.Position = UDim2.new(0.794507563, 0, 0.682505429, 0)
+Frame7.Position = UDim2.new(1.25, 0, 0.682505429, 0)
 Frame7.Size = UDim2.new(0.195075765, 0, 0.276457906, 0)
 Frame7.BackgroundColor = BrickColor.new("Institutional white")
 Frame7.BackgroundColor3 = Color3.new(1, 1, 1)
