@@ -11,7 +11,7 @@ insert `local CoolLibrary = loadstring(game:HttpGet("https://raw.githubuserconte
 
 Use `CoolLibrary:init()` to initilaze the library and make a window.
 The settings are
-```luaufdsafdsa
+```luau
 CoolLibrary:init({
 Name = "Cool Hub",
 LoadingTitle = "Cool Hub",
