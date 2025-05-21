@@ -7,7 +7,7 @@ cool
 
 
 ### loading the library
-insert `local CoolLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaming73152/coollibrary/refs/heads/main/source.lua` at the start of your code
+insert `local CoolLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaming73152/coollibrary/refs/heads/main/source.lua))()` at the start of your code
 
 Use `CoolLibrary:init()` to initilaze the library and make a window.
 The settings are
